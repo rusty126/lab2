@@ -20,7 +20,7 @@ fun main() {
  * Вызывается из main внутри runBlocking.
  */
 private suspend fun runChecks() {
-    println("Лабораторная работа №2 — Ковальчук Никита Алексеевич")
+    println("Лабораторная работа №2 — Кара Артем Валерьевич")
     expect("1.1 Приветствие", "Привет, Анна! Через 10 лет тебе будет 35 лет.", BasicSyntax.greetUser("Анна", 25))
     val seasons = listOf("Зима", "Зима", "Весна", "Весна", "Весна", "Лето", "Лето", "Лето", "Осень", "Осень", "Осень", "Зима")
     seasons.forEachIndexed { index, season -> expect("1.2 Месяц ${index + 1}", season, BasicSyntax.getSeason(index + 1)) }
