@@ -2,7 +2,7 @@ package tasks
 
 /**
  * Решения задач по базовому синтаксису.
- * @author Ковальчук Никита Алексеевич
+ * @author Кара Артем Валерьевич
  * @version 1.0
  */
 object BasicSyntax {
